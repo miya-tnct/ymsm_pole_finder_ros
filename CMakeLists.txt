@@ -9,6 +9,7 @@ project(ymsm_pole_finder)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
+  sensor_msgs
   roscpp
 )
 
